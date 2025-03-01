@@ -18,6 +18,9 @@ import "github.com/tituscarl/spill"
 s := spill.New()
 
 // Add data to the spill
-s.Add("key", "value")
+s.Put("key", "value")
+
+// Get value
+val := s.Get("key")
 ```
 
