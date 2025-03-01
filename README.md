@@ -12,7 +12,7 @@ Why "Spill"? Since it will spill the data to a new map when the total size of th
 ## Usage
 
 ```go
-import "github.com/spill"
+import "github.com/tituscarl/spill"
 
 // Create a new spill instance
 s := spill.New()
