@@ -19,14 +19,5 @@ s := spill.New()
 
 // Add data to the spill
 s.Add("key", "value")
-
-// Get data from the spill
-value, ok := s.Get("key")
-
-// Delete data from the spill
-s.Delete("key")
-
-// Clear all data
-s.Clear()
 ```
 
