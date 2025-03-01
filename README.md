@@ -20,7 +20,7 @@ s := spill.New()
 // Add data to the spill
 s.Put("key", "value")
 
-// Get value
-val := s.Get("key")
+// Get value, ok should be true if "key" is present
+val, ok := s.Get("key")
 ```
 
